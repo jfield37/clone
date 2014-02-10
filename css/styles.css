@@ -410,6 +410,7 @@ html, body {
   font-size:14px;
   height: 100%;
   width: 100%;
+  background-color: #d3d3d3;
 }
 
 .group:after {
@@ -437,7 +438,6 @@ header {
   display: inline;
   padding: 10px;
   line-height: 68px;
-  height: 68px;
   color: white;
   text-decoration: none;
   font-size: 18px;
@@ -446,27 +446,25 @@ header {
 
 .main-nav a.email {
   float: right;
-  line-height: 15px;
-  height: 15px;
+  padding: 0 10px;
   width: 118px;
   margin-right: 15px;
   text-align: center;
   background: linear-gradient(#43c3d9, #43c3d9);
-  border-radius: 2px;
+  border-radius: 1px;
 }
 
-.container{
+.container {
   width: 1000px;
   margin: 0 auto;
 }
 
 .page {
+  margin-top: 15px;
   background-color: white;
   height: 658px;
   width: 710px;
-  padding: 10px;
   float: left;
-  border: solid 1px red;
 }
 
 .brain {
@@ -478,7 +476,7 @@ header {
 
 .title {
   padding: 0px 10px;
-  margin: 10px;
+  margin: 10px 10px 10px 360px;
   height: 262px;
 }
 
@@ -491,15 +489,15 @@ header {
 }
 
 .aside {
+  margin-top: 15px;
   height: 658px;
   width: 258px;
-  padding: 4px;
   float: right;
-  border: solid 1px red;
+  background-color: white;
 }
 
 h1 {
-
+  
 }
 
 h2 {
@@ -511,8 +509,39 @@ h3 {
   text-align: center;
 }
 
+.aside li {
+  list-style-type: none;
+}
 
+.aside img {
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+}
 
+.footer {
+  border-top: 1px solid grey;
+  margin-top: 15px;
+
+}
+
+.bottom {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.copyright {
+  float: left;
+}
+
+.sprites {
+  float: right;
+  width: 256px;
+}
+
+.sprites li {
+  list-style-type: none;
+}
 
 
 
